@@ -1,0 +1,3 @@
+rootProject.name = 'soundboard'
+
+include ':RNSound', ':app'
