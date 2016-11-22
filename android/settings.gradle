@@ -1,3 +1,6 @@
 rootProject.name = 'soundboard'
 
+include ':react-native-sound-android'
+project(':react-native-sound-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound-android/android')
+
 include ':RNSound', ':app'
